@@ -7,7 +7,7 @@ class GeminiApi {
     final String apiKey = "REDACTED_API_KEY";
     
         
-    final String apiKey = "REDACTED_API_KEY";
+     
 
     final prompt = 
     "اعطني معنى كلمة \"$word\" باختصار، ثم مثال جملة واحدة عليها. رجعي الرد بصيغة:\nالمعنى: ...\nمثال: ...";
