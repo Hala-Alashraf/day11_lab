@@ -4,9 +4,10 @@ import 'package:http/http.dart' as http;
 
 class GeminiApi {
   Future<String> getWordInfo(String word) async {
-    String link =
-        "https://generativelanguage.googleapis.com/v1beta/interactions";
-    var uri = Uri.parse(link);
+    final String apiKey = "REDACTED_API_KEY";
+    
+        
+    final String apiKey = "REDACTED_API_KEY";
 
     final prompt = 
     "اعطني معنى كلمة \"$word\" باختصار، ثم مثال جملة واحدة عليها. رجعي الرد بصيغة:\nالمعنى: ...\nمثال: ...";
