@@ -1,6 +1,8 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter/material.dart';
 import 'screens/vocab_screen.dart';
-void main() {
+Future <void> main()async {
+    await dotenv.load();
   runApp(const MainApp());
 }
 

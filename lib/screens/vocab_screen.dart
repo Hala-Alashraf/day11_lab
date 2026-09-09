@@ -57,9 +57,9 @@ class _VocabScreenState extends State<VocabScreen> {
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(12),
-                  child: Text(result),
+                  child: Text(result), 
                 ),
-              ),
+              )else(Text("no data"))
           ],
         ),
       ),
